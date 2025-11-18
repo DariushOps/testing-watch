@@ -23,7 +23,7 @@ export default function CoverSlideshow() {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div id="hero" className="relative w-full h-screen overflow-hidden">
       {images.map((image, index) => (
         <img
           key={index}

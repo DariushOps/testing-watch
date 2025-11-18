@@ -27,7 +27,7 @@
 @theme {
   --font-montserrat: "Montserrat Alternates", sans-serif;
   --font-lato: "Lato", sans-serif;
-  --font-dancing: "Dancing Script", sans-serif;
-  --font-pacifico: "Pacifico", cursive;
+  --font-cinzel: "Cinzel", sans-serif;
+  --font-cormorant: "Cormorant Garamond", cursive;
   --animate-fadeIn: fadeIn 0.7s ease-in-out forwards;
 }

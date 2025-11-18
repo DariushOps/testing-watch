@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { PiShoppingBagOpenFill } from "react-icons/pi";
+import { useEffect, useState } from "react";
 
 function CartIcon({ count }) {
   return (
@@ -16,15 +17,44 @@ function CartIcon({ count }) {
 }
 
 export default function Navbar() {
-  const linkClasses = `hover:text-amber-400/90 transition-color duration-500 backface-hidden `;
+  const [fixed, setFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const heroHeight = document.getElementById("hero")?.offsetHeight || 200;
+
+      if (window.scrollY >= heroHeight - 20) {
+        setFixed(true);
+      } else {
+        setFixed(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const linkClasses = `hover:text-amber-400 transition-color duration-500 backface-hidden `;
+
   return (
-    <nav className="flex fixed top-0 left-0 right-0 text-3xl font-montserrat font-semibold justify-between py-16 px-12 z-30 bg-transparent uppercase">
-      <div className="flex items-center justify-center  pl-2 text-5xl animate-fadeIn ">
-        <Link className="text-3xl font-semibold text-amber-400 font-dancing">
+    <nav
+      className={`
+    fixed top-0 left-0 right-0 z-50 flex justify-between items-center uppercase font-montserrat text-[1.8rem] px-12
+    transition-all duration-600 ease-in-out
+    ${
+      fixed
+        ? "bg-slate-900/70 backdrop-blur-lg shadow-lg py-8"
+        : "bg-transparent py-12"
+    }
+  `}
+    >
+      <div className="flex items-center justify-center pl-2">
+        <Link className="text-[2rem] font-semibold text-amber-500/90 hover:text-amber-400 transition-colors duration-500 font-cormorant text-center">
           DariushOps
         </Link>
       </div>
-      <div className="flex items-center justify-center gap-16  animate-fadeIn ml-28">
+
+      <div className="flex items-center justify-center gap-16 ml-28">
         <NavLink className={linkClasses} to="/">
           Home
         </NavLink>
@@ -38,7 +68,8 @@ export default function Navbar() {
           Contact Us
         </NavLink>
       </div>
-      <div className="flex items-center justify-center  gap-5 animate-fadeIn">
+
+      <div className="flex items-center justify-center gap-5">
         <CartIcon count={2} />
         <Link className="hover:text-amber-400/90 duration-500" to="login">
           Log In
