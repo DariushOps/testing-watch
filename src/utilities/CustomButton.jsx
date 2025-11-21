@@ -5,11 +5,11 @@ export default function CustomButton() {
   return (
     <Link
       to="shop"
-      className="flex absolute bottom-20 left-1/2 -translate-x-1/2 justify-center items-center w-70 opacity-0 translate-y-15 transition-all duration-600
+      className="flex absolute bottom-18 left-1/2 -translate-x-1/2 justify-center items-center w-60 opacity-0 translate-y-10 transition-all duration-600
       group-hover:opacity-100 group-hover:translate-y-0"
     >
       <motion.span
-        className=" flex  mx-auto justify-center items-center w-70 h-18 bg-amber-400/70 transition-colors duration-500  border-2 border-amber-400/80 text-gray-200 text-[1.8rem] font-lato font-semibold"
+        className=" flex  mx-auto justify-center items-center w-55 h-15 bg-amber-400/60 transition-colors duration-500  border-2 border-amber-400/80 text-gray-200 text-[1.5rem] font-montserrat capitalize"
         whileHover={{
           borderRadius: "10px",
           color: "#e5e7eb",
@@ -25,7 +25,7 @@ export default function CustomButton() {
         }}
         type="button"
       >
-        Let's go
+        explore
       </motion.span>
     </Link>
   );

@@ -26,7 +26,7 @@ export default function BrandSection() {
             />
           </div>
           <div className="flex w-[50%] px-10 flex-col gap-16 ">
-            <h2 className="block w-[30%] mx-auto cursor-context-menu text-center font-cormorant text-gray-200 hover:text-amber-500 hover:scale-115 hover:drop-shadow-lg transition-all transform-gpu duration-500 text-2xl md:text-[2rem] lg:text-[6.5rem] font-light uppercase">
+            <h2 className="block w-[30%] mx-auto cursor-context-menu text-center font-cormorant text-gray-200 hover:text-amber-500 hover:scale-115 hover:drop-shadow-lg transition-all transform-gpu duration-500 text-2xl md:text-[2rem] lg:text-[5.5rem] font-light uppercase">
               Rolex
             </h2>
             <p className=" text-sm lg:text-[1.8rem] px-10 m-0 font-lato text-center">
@@ -41,7 +41,7 @@ export default function BrandSection() {
               className="flex mx-auto justify-center items-center w-70"
             >
               <motion.span
-                className=" flex mx-auto justify-center items-center w-70 h-18 bg-transparent border-2 border-amber-500/60 text-gray-200 text-[1.8rem] font-lato font-semibold"
+                className=" flex mx-auto justify-center items-center w-70 h-18 bg-transparent border-2 border-amber-500/60 text-gray-200 text-[1.8rem] font-montserrat capitalize"
                 whileHover={{
                   borderRadius: "10px",
                   color: "#e5e7eb",
@@ -57,7 +57,7 @@ export default function BrandSection() {
                 }}
                 type="button"
               >
-                Let's go
+                explore
               </motion.span>
             </Link>
           </div>
@@ -70,7 +70,7 @@ export default function BrandSection() {
           className="flex gap-0 h-180 items-center justify-center w-full overflow-hidden"
         >
           <div className="flex w-[50%] px-10 flex-col gap-16">
-            <h2 className="block w-[30%] mx-auto cursor-context-menu text-center font-cormorant text-gray-200 hover:text-amber-500 hover:scale-115 hover:drop-shadow-lg transition-all transform-gpu duration-500 text-2xl md:text-[2rem] lg:text-[6.5rem] font-light uppercase">
+            <h2 className="block w-[30%] mx-auto cursor-context-menu text-center font-cormorant text-gray-200 hover:text-amber-500 hover:scale-115 hover:drop-shadow-lg transition-all transform-gpu duration-500 text-2xl md:text-[2rem] lg:text-[5.5rem] font-light uppercase">
               Omega
             </h2>
             <p className=" text-sm lg:text-[1.8rem] px-10 m-0 font-lato text-center">
@@ -85,7 +85,7 @@ export default function BrandSection() {
               className="flex mx-auto justify-center items-center w-70"
             >
               <motion.span
-                className=" flex mx-auto justify-center items-center w-70 h-18 bg-transparent border-2 border-amber-500/60 text-gray-200 text-[1.8rem] font-lato font-semibold"
+                className=" flex mx-auto justify-center items-center w-70 h-18 bg-transparent border-2 border-amber-500/60 text-gray-200 text-[1.8rem] font-montserrat capitalize"
                 whileHover={{
                   borderRadius: "10px",
                   color: "#e5e7eb",
@@ -101,7 +101,7 @@ export default function BrandSection() {
                 }}
                 type="button"
               >
-                Let's go
+                explore
               </motion.span>
             </Link>
           </div>
@@ -128,7 +128,7 @@ export default function BrandSection() {
             />
           </div>
           <div className="flex w-[50%] px-10 flex-col gap-16">
-            <h2 className="block w-[30%] mx-auto cursor-context-menu text-center font-cormorant text-gray-200 hover:text-amber-500 hover:scale-115 hover:drop-shadow-lg transition-all transform-gpu duration-500 text-2xl md:text-[2rem] lg:text-[6.5rem] font-light uppercase">
+            <h2 className="block w-[30%] mx-auto cursor-context-menu text-center font-cormorant text-gray-200 hover:text-amber-500 hover:scale-115 hover:drop-shadow-lg transition-all transform-gpu duration-500 text-2xl md:text-[2rem] lg:text-[5.5rem] font-light uppercase">
               Seiko
             </h2>
             <p className=" text-sm lg:text-[1.8rem] px-10 m-0 font-lato text-center">
@@ -143,7 +143,7 @@ export default function BrandSection() {
               className="flex mx-auto justify-center items-center w-70"
             >
               <motion.span
-                className=" flex mx-auto justify-center items-center w-70 h-18 bg-transparent border-2 border-amber-500/60 text-gray-200 text-[1.8rem] font-lato font-semibold"
+                className=" flex mx-auto justify-center items-center w-70 h-18 bg-transparent border-2 border-amber-500/60 text-gray-200 text-[1.8rem] font-montserrat capitalize"
                 whileHover={{
                   borderRadius: "10px",
                   color: "#e5e7eb",
@@ -159,7 +159,7 @@ export default function BrandSection() {
                 }}
                 type="button"
               >
-                Let's go
+                explore
               </motion.span>
             </Link>
           </div>
@@ -172,7 +172,7 @@ export default function BrandSection() {
           className="flex gap-0 h-180 items-center justify-center w-full overflow-hidden"
         >
           <div className="flex w-[50%] px-10 flex-col gap-20">
-            <h2 className="block w-[50%] mx-auto cursor-context-menu text-center font-cormorant text-gray-200 hover:text-amber-500 hover:scale-115 hover:drop-shadow-lg transition-all transform-gpu duration-500 text-2xl md:text-[2rem] lg:text-[6.5rem] font-light uppercase">
+            <h2 className="block w-[50%] mx-auto cursor-context-menu text-center font-cormorant text-gray-200 hover:text-amber-500 hover:scale-115 hover:drop-shadow-lg transition-all transform-gpu duration-500 text-2xl md:text-[2rem] lg:text-[5.5rem] font-light uppercase">
               Breitling
             </h2>
             <p className=" text-sm lg:text-[1.8rem] px-10 m-0 font-lato text-center">
@@ -187,7 +187,7 @@ export default function BrandSection() {
               className="flex mx-auto justify-center items-center w-70"
             >
               <motion.span
-                className=" flex mx-auto justify-center items-center w-70 h-18 bg-transparent border-2 border-amber-500/60 text-gray-200 text-[1.8rem] font-lato font-semibold"
+                className=" flex mx-auto justify-center items-center w-70 h-18 bg-transparent border-2 border-amber-500/60 text-gray-200 text-[1.8rem] font-montserrat capitalize"
                 whileHover={{
                   borderRadius: "10px",
                   color: "#e5e7eb",
@@ -203,7 +203,7 @@ export default function BrandSection() {
                 }}
                 type="button"
               >
-                Let's go
+                explore
               </motion.span>
             </Link>
           </div>
